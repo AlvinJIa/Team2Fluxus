@@ -1,4 +1,4 @@
-﻿Shader "Hidden/BlackWhite"
+﻿Shader "Custom/BlackWhite"
 {
     Properties
     {
