@@ -69,6 +69,7 @@
     <Compile Include="Assets\Models\Standard Assets\Utility\CameraRefocus.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\PlatformSpecificContent.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Scripts\Highlight_Activate.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
@@ -95,7 +96,7 @@
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\Scripts\Highlight_Activate.cs" />
+    <Compile Include="Assets\Scripts\GUIFunction.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Models\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

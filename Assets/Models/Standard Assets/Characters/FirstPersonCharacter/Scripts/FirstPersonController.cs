@@ -43,9 +43,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public int Water;
+
         // Use this for initialization
         private void Start()
         {
+            Screen.SetResolution(1920, 1080, true);
             m_CharacterController = GetComponent<CharacterController>();
             m_Camera = Camera.main;
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
