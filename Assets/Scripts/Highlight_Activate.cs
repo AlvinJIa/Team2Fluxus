@@ -22,6 +22,7 @@ public class Highlight_Activate : MonoBehaviour
 
     void Start()
     {
+        //UI.alpha = 0f;//Start with no UI
         InteractiveMat.SetFloat("_Outline", 0);
         Ifcollide = false;
         WaterAmountText = GameObject.Find("WaterAmount");

@@ -58,6 +58,7 @@
     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\EventSystemChecker.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Scripts\Pipescript.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\TimedObjectActivator.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\WaypointProgressTracker.cs" />
@@ -68,7 +69,9 @@
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\CameraRefocus.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Scripts\WaterManager.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Scripts\PipeManager.cs" />
     <Compile Include="Assets\Scripts\Highlight_Activate.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
@@ -90,13 +93,14 @@
     <Compile Include="Assets\Models\Standard Assets\Utility\FollowTarget.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Scripts\FakePipeScript.cs" />
     <Compile Include="Assets\Scripts\CustomScreenEffect.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\Scripts\GUIFunction.cs" />
+    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Models\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

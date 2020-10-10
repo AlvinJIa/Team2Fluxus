@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 #pragma warning disable 618, 649
@@ -45,7 +46,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public int Water;
 
-        // Use this for initialization
         private void Start()
         {
             Screen.SetResolution(1920, 1080, true);
@@ -60,6 +60,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
+
 
         private void Update()
         {
