@@ -13,6 +13,7 @@ public class SwitchCamera : MonoBehaviour
     public GameObject Player;
 
     private bool IfPiped;
+    private Animator animator;
     //private bool canDoAction = true;
     void Start()
     {
@@ -22,6 +23,8 @@ public class SwitchCamera : MonoBehaviour
         UI.transform.GetChild(0).gameObject.SetActive(false);
         UI.transform.GetChild(1).gameObject.SetActive(false);
         UI.transform.GetChild(2).gameObject.SetActive(false);
+        UI.transform.GetChild(3).gameObject.SetActive(false);
+        animator = GameObject.Find("QuestList").GetComponent<Animator>();
     }
     private void OnTriggerEnter(Collider collision)
     { 
@@ -47,9 +50,13 @@ public class SwitchCamera : MonoBehaviour
             UI.transform.GetChild(0).gameObject.SetActive(true);
             UI.transform.GetChild(1).gameObject.SetActive(true);
             UI.transform.GetChild(2).gameObject.SetActive(true);
+            UI.transform.GetChild(3).gameObject.SetActive(true);
             Player.GetComponent<FirstPersonController>().enabled = true;
+
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
+            animator.SetBool("IfShiftIn", true);
         }
     }
 }

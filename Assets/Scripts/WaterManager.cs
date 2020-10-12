@@ -8,6 +8,16 @@ public class WaterManager : MonoBehaviour
 
     public float water;
 
+    //fix quests
+    public bool Washhands = false;
+    public bool Drink = false;
+    public bool Toilet = false;
+    // random quests
+    public bool Takebath = false;
+    public bool Washmachine = false;
+
+    public bool Winnning = false;
+
     private void Awake()
     {
         if (Instance == null)

@@ -72,7 +72,7 @@
     <Compile Include="Assets\Scripts\WaterManager.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Scripts\PipeManager.cs" />
-    <Compile Include="Assets\Scripts\Highlight_Activate.cs" />
+    <Compile Include="Assets\Scripts\Interact_Activate.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
@@ -87,6 +87,7 @@
     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\DynamicShadowSettings.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\LerpControlledBob.cs" />
@@ -95,12 +96,12 @@
     <Compile Include="Assets\Models\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Scripts\FakePipeScript.cs" />
     <Compile Include="Assets\Scripts\CustomScreenEffect.cs" />
+    <Compile Include="Assets\Scripts\QuestManager.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Models\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
