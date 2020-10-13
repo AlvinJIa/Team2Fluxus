@@ -102,6 +102,7 @@
     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Models\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

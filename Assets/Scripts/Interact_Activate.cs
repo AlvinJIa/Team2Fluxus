@@ -22,6 +22,7 @@ public class Interact_Activate : MonoBehaviour
     private static List<AnimatorClipInfo> clipList = new List<AnimatorClipInfo>();
     QuestManager questmanager;
     //[SerializeField] private Image healthImage;
+    private AudioSource audio;
 
     void Awake()
     {
@@ -37,6 +38,7 @@ public class Interact_Activate : MonoBehaviour
         WaterMinusText = GameObject.Find("MinusWater");
         WaterMinusText.GetComponent<Text>().text = "";
         animator = UI.GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider collision)
     {
@@ -156,6 +158,7 @@ public class Interact_Activate : MonoBehaviour
             }
             WaterMinusText.SetActive(true);
             PlayAnim(animator);
+            audio.Play(0);
             Ifcollide = false;
         }
     }
