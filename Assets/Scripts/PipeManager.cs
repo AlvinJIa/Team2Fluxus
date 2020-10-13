@@ -40,9 +40,9 @@ public class PipeManager : MonoBehaviour
         correctedPipes++;
         if(correctedPipes == totalPipes)
         {
-            Debug.Log("you win!");
             winning = true;
-            WaterManager.Instance.water += watergain;
+            WaterManager.Instance.spawn = true;
+            //WaterManager.Instance.water += watergain;
         }
     }
 
