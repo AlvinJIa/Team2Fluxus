@@ -22,11 +22,7 @@ public class QuestManager : MonoBehaviour
         //always false at start
         WaterManager.Instance.Drink = false;
         WaterManager.Instance.Washhands = false;
-<<<<<<< HEAD
         WaterManager.Instance.Toilet = false;
-=======
-        WaterManager.Instance.Toilet = true;
->>>>>>> 01eb0a4df9097700877b5eb298d229353c8e6739
 
         //randomly set to true
         WaterManager.Instance.Takebath = false;
@@ -51,11 +47,7 @@ public class QuestManager : MonoBehaviour
             animator.SetBool("IfShiftOut", true);
 
             //Controller lock
-<<<<<<< HEAD
             //Debug.Log("111");
-=======
-            Debug.Log("111");
->>>>>>> 01eb0a4df9097700877b5eb298d229353c8e6739
             Player.GetComponent<FirstPersonController>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
