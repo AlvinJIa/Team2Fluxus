@@ -10,6 +10,8 @@ public class WaterManager : MonoBehaviour
     public float dirtywater;
     public float health;
 
+    public float pipegame;
+
     //fix quests
     public bool Washhands = false;
     public bool Drink = false;

@@ -61,11 +61,11 @@ public class PolutionManager : MonoBehaviour
         {
             if (t < 10)
             {
-                WaterManager.Instance.water += 15;
+                WaterManager.Instance.water += WaterManager.Instance.pipegame / 10;
             }
             else
             {
-                WaterManager.Instance.dirtywater += 15;
+                WaterManager.Instance.dirtywater += WaterManager.Instance.pipegame / 10;
             }
             CleanWaterAmountText.GetComponent<Text>().text = "" + WaterManager.Instance.water;
             DirtyWaterAmountText.GetComponent<Text>().text = "" + WaterManager.Instance.dirtywater;

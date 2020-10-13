@@ -42,7 +42,7 @@ public class PipeManager : MonoBehaviour
         {
             winning = true;
             WaterManager.Instance.spawn = true;
-            //WaterManager.Instance.water += watergain;
+            WaterManager.Instance.pipegame += watergain;
         }
     }
 
